@@ -31,7 +31,7 @@ class Program
         Numbers[2] = 103;
         ParamsArrayMethod(); // Params are optional as if we pass null it would simply send nothing
         ParamsArrayMethod(Numbers);
-        ParamsArrayMethod(222,333,444,555,666);
+        ParamsArrayMethod(222,333,444,555,666); // 222,333,444,555,666 are >>arguements<< and the variable taking it in function definition is >>paramters<<
     }
 
     private static void Calculate(int v1, int v2, out int total, out int product)
